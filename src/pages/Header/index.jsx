@@ -1,3 +1,5 @@
+import logoHeader from '../../svg/blog-logo.svg'
+
 const Header = () => {
     return (
         <>
@@ -5,7 +7,7 @@ const Header = () => {
                 <nav>
                     <div className="logo">
                         <a href="">
-                            <img src="./svg/blog-logo.svg" alt="Logo do blog" />
+                            <img src={logoHeader} alt="Logo do blog" />
                         </a>
                     </div>
                     <ul className="menu">
