@@ -1,4 +1,4 @@
-import logoHeader from '../../svg/blog-logo.svg'
+import logoHeader from '../../svg/blog-logo.svg';
 
 const Header = () => {
     return (
@@ -50,6 +50,38 @@ const Header = () => {
                     </div>
                 </div>
             </header>
+
+            <div className="relative">
+                <div className="menu-mobile">
+                    <ul className="nav-mobile">
+                        <li>
+                            <a href="#" className="nav-mobile__link">
+                                Categorias
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#" className="nav-mobile__link">
+                                Sobre
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#" className="nav-mobile__link">
+                                Contato
+                            </a>
+                        </li>
+                        <li className="py-2 px-2">
+                            <form className="flex">
+                                <input
+                                    type="text"
+                                    name="search"
+                                    placeholder="Buscar..."
+                                />
+                                <button className="btn-search"></button>
+                            </form>
+                        </li>
+                    </ul>
+                </div>
+            </div>
         </>
     );
 };
