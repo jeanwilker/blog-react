@@ -1,0 +1,159 @@
+{
+    "posts": [
+      {
+        "id": 1,
+        "id_user": 1,
+        "date": "14 NOV 2022",
+        "imageUrl": "https://photos.google.com/u/2/share/AF1QipMLWTts1ZsrBihudKdJMEG5I_WnYEoVpT80CPzcaOMDP-EOoQ83kqN-m8A-8FtyVg/photo/AF1QipOrJlHlJRfFfmvrZ3qDulrGN5MgNEVjC2PK_TU?key=M0Y3TFoyRy1heTVWREVMa0U1bnNudHVHcnRCdXV3",
+        "category": "games",
+        "title": "O que tem de novo no PS5? Tudo o que você precisa saber.",
+        "resume": "Acabou de sair esse grande lançamento dos consoles. Leia esse artigo para saber das novidades!",
+        "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ornare urna pharetra ut ac, pellentesque. Ultricies habitasse pretium purus viverra. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ornare urna pharetra ut ac, pellentesque. Ultricies habitasse pretium purus viverra.",
+        "duration": "10",
+        "star": "3",
+        "views": "3",
+        "status": true
+      },
+      {
+        "id": 2,
+        "id_user": 1,
+        "date": "18 SET 2022",
+        "imageUrl": "https://photos.google.com/u/2/share/AF1QipMLWTts1ZsrBihudKdJMEG5I_WnYEoVpT80CPzcaOMDP-EOoQ83kqN-m8A-8FtyVg/photo/AF1QipNbx8DFVjz1k11-ric0AekEO__EqfzUAiLcKIE?key=M0Y3TFoyRy1heTVWREVMa0U1bnNudHVHcnRCdXV3",
+        "category": "tecnologia",
+        "title": "Novos processadores da 12° geração da intel chegaram.",
+        "resume": "Os novos processadores da intel vieram para bater de frente com os novos Ryzen? Tem nova arquitetura semelhante à prática da grande Apple.",
+        "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ornare urna pharetra ut ac, pellentesque. Ultricies habitasse pretium purus viverra. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ornare urna pharetra ut ac, pellentesque. Ultricies habitasse pretium purus viverra.",
+        "duration": "7",
+        "star": "5",
+        "views": "3",
+        "status": true
+      },
+      {
+        "id": 3,
+        "id_user": 3,
+        "date": "01 NOV 2022",
+        "imageUrl": "https://photos.google.com/u/2/share/AF1QipMLWTts1ZsrBihudKdJMEG5I_WnYEoVpT80CPzcaOMDP-EOoQ83kqN-m8A-8FtyVg/photo/AF1QipNPkenm0VvKvh5lzZlPdzrbwGxr47n8crqVgeo?key=M0Y3TFoyRy1heTVWREVMa0U1bnNudHVHcnRCdXV3",
+        "category": "fotografia",
+        "title": "Qual a melhor câmera CxB para fotos e vídeos em 2022?",
+        "resume": "Com o lançamento de novas câmeras, qual a melhor? DSLR ou mirrorless? Qual o melhor custo benefício?",
+        "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ornare urna pharetra ut ac, pellentesque. Ultricies habitasse pretium purus viverra. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ornare urna pharetra ut ac, pellentesque. Ultricies habitasse pretium purus viverra.",
+        "duration": "15",
+        "star": "5",
+        "views": "3",
+        "status": true
+      },
+      {
+        "id": 4,
+        "id_user": 3,
+        "date": "10 OUT 2022",
+        "imageUrl": "https://photos.google.com/u/2/share/AF1QipMLWTts1ZsrBihudKdJMEG5I_WnYEoVpT80CPzcaOMDP-EOoQ83kqN-m8A-8FtyVg/photo/AF1QipOiSOuVfAlai1O5JeUAfovE0CUnOesYLrSfVwQ?key=M0Y3TFoyRy1heTVWREVMa0U1bnNudHVHcnRCdXV3",
+        "category": "cinema",
+        "title": "Top 10 Filmes de 2022.",
+        "resume": "Por mais que a pandemia tenha atrapalhado a gravação de vários filmes, temos muitas novidades para esse final de ano. Confira os top 10 filmes que prometem para o final de 2022.",
+        "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ornare urna pharetra ut ac, pellentesque. Ultricies habitasse pretium purus viverra. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ornare urna pharetra ut ac, pellentesque. Ultricies habitasse pretium purus viverra.",
+        "duration": "8",
+        "star": "4",
+        "views": "3",
+        "status": true
+      },
+      {
+        "id": 5,
+        "id_user": 2,
+        "date": "07 OUT 2022",
+        "imageUrl": "https://photos.google.com/u/2/share/AF1QipMLWTts1ZsrBihudKdJMEG5I_WnYEoVpT80CPzcaOMDP-EOoQ83kqN-m8A-8FtyVg/photo/AF1QipO_86sRyhsZU_dJOAh2EJy84PqSCHtd2iuSeOc?key=M0Y3TFoyRy1heTVWREVMa0U1bnNudHVHcnRCdXV3",
+        "category": "tecnologia",
+        "title": "Novos Mackbooks em 2022.",
+        "resume": "FINALMENTE! Os novos macbooks são lançados pela Apple com novos processadores e o termo PRO volta a fazer sentido! Os resultados são de supreender.",
+        "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ornare urna pharetra ut ac, pellentesque. Ultricies habitasse pretium purus viverra. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ornare urna pharetra ut ac, pellentesque. Ultricies habitasse pretium purus viverra.",
+        "duration": "8",
+        "star": "5",
+        "views": "3",
+        "status": true
+      },
+      {
+        "id": 6,
+        "id_user": 3,
+        "date": "07 OUT 2022",
+        "imageUrl": "https://photos.google.com/u/2/share/AF1QipMLWTts1ZsrBihudKdJMEG5I_WnYEoVpT80CPzcaOMDP-EOoQ83kqN-m8A-8FtyVg/photo/AF1QipPIVmcItABF2LAbd2FEYSziSQQ9g34VZVL6m-k?key=M0Y3TFoyRy1heTVWREVMa0U1bnNudHVHcnRCdXV3",
+        "category": "tecnologia",
+        "title": "Air Pods 3° geração vs. Air Pods Pro",
+        "resume": "Com o lançamento dos novos airpods de 3 geração, eles se aproximaram dos air pods pro? Será que vale a pena? É isso que vamos falar nesse artigo.",
+        "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ornare urna pharetra ut ac, pellentesque. Ultricies habitasse pretium purus viverra. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ornare urna pharetra ut ac, pellentesque. Ultricies habitasse pretium purus viverra.",
+        "duration": "8",
+        "star": "3",
+        "views": "3",
+        "status": true
+      },
+      {
+        "id": 7,
+        "id_user": 1,
+        "date": "07 NOV 2022",
+        "imageUrl": "https://photos.google.com/u/2/share/AF1QipMLWTts1ZsrBihudKdJMEG5I_WnYEoVpT80CPzcaOMDP-EOoQ83kqN-m8A-8FtyVg/photo/AF1QipNQ6RfaohtAjJgMrq659Q_8M5CTeL1wdbeqtGk?key=M0Y3TFoyRy1heTVWREVMa0U1bnNudHVHcnRCdXV3",
+        "category": "tecnologia",
+        "title": "Ainda vale a pena o PS4 Pro em 2022",
+        "resume": "Vale a pena comprar Bitcoin hoje? Mesmo diante do preço do ativo em queda desde o começo do ano, entenda os motivos para considerar comprar BTC hoje.",
+        "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ornare urna pharetra ut ac, pellentesque. Ultricies habitasse pretium purus viverra. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ornare urna pharetra ut ac, pellentesque. Ultricies habitasse pretium purus viverra.",
+        "duration": "8",
+        "star": "4",
+        "views": "3",
+        "status": true
+      },
+      {
+        "id": 8,
+        "id_user": 1,
+        "date": "21 NOV 2022",
+        "imageUrl": "https://photos.google.com/u/2/share/AF1QipMLWTts1ZsrBihudKdJMEG5I_WnYEoVpT80CPzcaOMDP-EOoQ83kqN-m8A-8FtyVg/photo/AF1QipPlB7NT5ta5qr3jkVrgqec_Xh8HzxhM0aL2q58?key=M0Y3TFoyRy1heTVWREVMa0U1bnNudHVHcnRCdXV3",
+        "category": "tecnologia",
+        "title": "PC Gamer em 2022? Está muito caro.",
+        "resume": "Vocês já viram os preços de comprar um PC Gamer em plena pandemia covid-19? Escrevi um pouco sobre o que esperar daqui pra frente.",
+        "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ornare urna pharetra ut ac, pellentesque. Ultricies habitasse pretium purus viverra. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ornare urna pharetra ut ac, pellentesque. Ultricies habitasse pretium purus viverra.",
+        "duration": "8",
+        "star": "4",
+        "views": "3",
+        "status": true
+      },
+      {
+        "id_user": 1,
+        "date": "2022-11-21",
+        "imageUrl": "https://nyousefali.com.br/blog/img/08.png",
+        "category": "cinema",
+        "title": "O novo filme do Spider-man no way home",
+        "resume": "Aqui é um resumo do posto: O novo filme do Spider-man no way home",
+        "content": "Conteúdo do post do spiderman\n",
+        "duration": "7",
+        "star": "4",
+        "views": "10",
+        "status": true,
+        "id": 9
+      }
+    ],
+    "user": [
+      {
+        "id": 1,
+        "user": "wilker",
+        "name": "Nasser",
+        "surname": "Jean Wilker",
+        "token": "E10ADC3949BA59ABBE56E057F20F883E",
+        "description": "Sou desenvolvedor front-end e tenho conhecimentos em JavaScript, CSS, HTML e ReactJS. Já desenvolvi projetos utilizando essas tecnologias, prezando os princípios de código limpo e boas práticas de versionamento no GitHub. Tenho aptidão para melhoria contínua e venho aprimorando meus conhecimentos a cada dia... Estou sempre disposto a ajudar e a entregar resultados.",
+        "ImageProfile": "https://photos.google.com/u/2/share/AF1QipMLWTts1ZsrBihudKdJMEG5I_WnYEoVpT80CPzcaOMDP-EOoQ83kqN-m8A-8FtyVg/photo/AF1QipPJyn-vQX5bZjG0Hph2VPfLV191ROHnKozSkaY?key=M0Y3TFoyRy1heTVWREVMa0U1bnNudHVHcnRCdXV3"
+      },
+      {
+        "id": 2,
+        "user": "emily",
+        "name": "Emily",
+        "surname": "Grace",
+        "token": "E10ADC3949BA59ABBE56E057F20F883E",
+        "description": "Sou UI Designer e apaixonada por tecnologia. Crio interfaces e escrevo para o blog.",
+        "ImageProfile": "https://photos.google.com/u/2/share/AF1QipMLWTts1ZsrBihudKdJMEG5I_WnYEoVpT80CPzcaOMDP-EOoQ83kqN-m8A-8FtyVg/photo/AF1QipPMPG2-tg458xIUyBydgfcQSYG0SoQI4WJfxVQ?key=M0Y3TFoyRy1heTVWREVMa0U1bnNudHVHcnRCdXV3"
+      },
+      {
+        "id": 3,
+        "user": "alex",
+        "name": "Alex",
+        "surname": "Jacob",
+        "token": "E10ADC3949BA59ABBE56E057F20F883E",
+        "description": "Sou fotógrafo profissional, amante de cinema e tecnologia. Colunista e nas horas vagas escrevo para o blog.",
+        "ImageProfile": "https://photos.google.com/u/2/share/AF1QipMLWTts1ZsrBihudKdJMEG5I_WnYEoVpT80CPzcaOMDP-EOoQ83kqN-m8A-8FtyVg/photo/AF1QipOmeV5UgZIhZp5XgkcWwEbGcVn2-CzWj_CsIH8?key=M0Y3TFoyRy1heTVWREVMa0U1bnNudHVHcnRCdXV3"
+      }
+    ]
+  }
