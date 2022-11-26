@@ -1,8 +1,10 @@
 // COMPONENTS
+import Header from '../Header';
 import Hero from './Hero';
 import Main from './Main';
 import Banner from './Banner';
 import Card from './Card';
+import Footer from '../Footer';
 
 // FIGURES
 import imgStar from '../../svg/icon-star.svg';
@@ -34,6 +36,8 @@ const Home = () => {
 
     return (
         <>
+            <Header />
+
             <Hero />
 
             <section className="container">
@@ -74,6 +78,8 @@ const Home = () => {
                     })}
                 </div>
             </section>
+
+            <Footer />
         </>
     );
 };

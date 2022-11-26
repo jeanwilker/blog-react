@@ -1,14 +1,10 @@
-import Header from './pages/Header';
-import Home from './pages/Home';
-import Footer from './pages/Footer';
+import Router from 'Router';
 import './css/style.css';
 
 function App() {
   return (
     <>
-      <Header />
-      <Home />
-      <Footer />
+      <Router />
     </>
   );
 }
