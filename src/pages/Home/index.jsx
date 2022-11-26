@@ -60,9 +60,11 @@ const Home = () => {
                         </p>
                     </div>
 
-                    {main.map((item) => {
-                        return <Main key={item.id} content={item} />;
-                    })}
+                    <div className="grid-6">
+                        {main.map((item) => {
+                            return <Main key={item.id} content={item} />;
+                        })}
+                    </div>
                 </div>
             </section>
 
