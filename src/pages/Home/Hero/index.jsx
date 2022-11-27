@@ -3,8 +3,8 @@ import imgBlog from '../../../svg/blog.svg';
 const Hero = () => {
     return (
         <>
-            <section className="container">
-                <div className="row">
+            <section className="container flex-center">
+                <div className="row mt-9">
                     <div className="grid-6">
                         <h1 className="h0">
                             Blog<span>.</span>
