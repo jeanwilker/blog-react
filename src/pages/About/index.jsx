@@ -17,10 +17,14 @@ const About = () => {
                             Blog<span>.</span>
                         </h1>
                         <p className="mt-1">
-                            O Blog é um projeto desenvolvido em React.js.
-                            Clique abaixo para saber de mais informações.
+                            O Blog é um projeto desenvolvido em React.js. Clique
+                            abaixo para saber de mais informações.
                         </p>
-                        <a href="#" className="btn mt-4">
+                        <a
+                            href="https://github.com/jeanwilker/blog-react"
+                            target="_black"
+                            className="btn mt-4"
+                        >
                             Saber mais
                         </a>
                     </div>

@@ -1,3 +1,4 @@
+// IMAGES
 import logoFooter from '../../svg/blog-logo2.svg';
 import iconFacebook from '../../svg/icon-facebook.svg';
 import iconInstagram from '../../svg/icon-instagram.svg';
