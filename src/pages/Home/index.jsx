@@ -12,7 +12,7 @@ import imgStar from '../../svg/icon-star.svg';
 // API
 import api from '../../services/api';
 
-//HOOKS
+// HOOKS
 import { useState, useEffect } from 'react';
 
 const Home = () => {
