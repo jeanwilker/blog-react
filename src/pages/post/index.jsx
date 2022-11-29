@@ -17,7 +17,7 @@ const Post = () => {
 
     useEffect(() => {
         if (idPost) {
-            api.get('/posts/' + idPost).then((response) => {
+            api.get(`/posts/${idPost}`).then((response) => {
                 setPost(response.data);
 
                 api.get('/user/' + response.data.id_user).then((response) => {

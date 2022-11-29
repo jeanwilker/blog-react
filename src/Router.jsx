@@ -21,7 +21,7 @@ const Router = () => {
                     <Route path="/login" element={<Login />} />
                     <Route path="/post/:idPost" element={<Post />} />
                     <Route path="/profile" element={<Profile />} />
-                    <Route path="/search" element={<Search />} />
+                    <Route path="/search/:wordSearch" element={<Search />} />
 
                     <Route path="*" element={<NotFound />} />
                 </Routes>

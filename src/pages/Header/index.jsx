@@ -1,9 +1,32 @@
 import logoHeader from '../../svg/blog-logo.svg';
 
 // LINK
-import { Link } from 'react-router-dom';
+import { Link, useNavigate } from 'react-router-dom';
+
+//HOOKS
+import { useState } from 'react';
 
 const Header = () => {
+    const initialValueForm = {
+        search: '',
+    };
+
+    const [form, setForm] = useState(initialValueForm);
+
+    function onChange(event) {
+        const { value, name } = event.target;
+
+        setForm({ ...form, [name]: value });
+    }
+
+    const navigate = useNavigate();
+
+    function handleSearch(event) {
+        event.preventDefault();
+
+        navigate(`/search/${form.search}`);
+    }
+
     return (
         <>
             <header className="px-2 py-1">
@@ -27,11 +50,12 @@ const Header = () => {
 
                 <div className="flex-start-row">
                     <div className="search">
-                        <form className="flex">
+                        <form className="flex" onSubmit={handleSearch}>
                             <input
                                 type="text"
                                 name="search"
                                 placeholder="Buscar..."
+                                onChange={onChange}
                             />
                             <button className="btn-search"></button>
                         </form>
@@ -65,11 +89,12 @@ const Header = () => {
                             </Link>
                         </li>
                         <li className="py-2 px-2">
-                            <form className="flex">
+                            <form className="flex" onSubmit={handleSearch}>
                                 <input
                                     type="text"
                                     name="search"
                                     placeholder="Buscar..."
+                                    onChange={onChange}
                                 />
                                 <button className="btn-search"></button>
                             </form>

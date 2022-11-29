@@ -3,7 +3,7 @@ import Header from '../Header';
 import Footer from '../Footer';
 
 // IMAGES
-import blogLogo from '../../svg/blog-logo2.svg'
+import blogLogo from '../../svg/blog-logo2.svg';
 
 const Login = () => {
     return (
@@ -12,11 +12,7 @@ const Login = () => {
 
             <section className="container">
                 <div className="row flex-center">
-                    <img
-                        src={blogLogo}
-                        className="icon-l"
-                        alt="Logo blog."
-                    />
+                    <img src={blogLogo} className="icon-l" alt="Logo blog." />
                 </div>
 
                 <div className="row">
@@ -40,30 +36,6 @@ const Login = () => {
                             id=""
                             placeholder="Digite sua senha"
                         />
-
-                        <div className="card-danger p-2 my-1">
-                            <h6 className="h7 color-red">
-                                Olá, isso é uma mensagem de erro
-                            </h6>
-                        </div>
-
-                        <div className="card-success p-2 my-1">
-                            <h6 className="h7 color-green">
-                                Olá, isso é uma mensagem de erro
-                            </h6>
-                        </div>
-
-                        <div className="card-warning p-2 my-1">
-                            <h6 className="h7 color-yellow">
-                                Olá, isso é uma mensagem de erro
-                            </h6>
-                        </div>
-
-                        <div className="card-info p-2 my-1">
-                            <h6 className="h7 color-primary">
-                                Olá, isso é uma mensagem de erro
-                            </h6>
-                        </div>
 
                         <button className="btn w-100 mt-2">Entrar</button>
                     </div>
