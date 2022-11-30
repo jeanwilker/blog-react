@@ -7,6 +7,7 @@ import { Link, useNavigate } from 'react-router-dom';
 import { useState } from 'react';
 
 const Header = () => {
+    //SEARCH
     const initialValueForm = {
         search: '',
     };
@@ -27,6 +28,13 @@ const Header = () => {
         navigate(`/search/${form.search}`);
     }
 
+    // MENU MOBILE
+    const [active, setActive] = useState(false);
+
+    const toggleMode = () => {
+        setActive(!active);
+    };
+
     return (
         <>
             <header className="px-2 py-1">
@@ -46,7 +54,10 @@ const Header = () => {
                     </ul>
                 </nav>
 
-                <div className="bx"></div>
+                <div
+                    className={active ? 'bx active-bx' : 'bx'}
+                    onClick={toggleMode}
+                ></div>
 
                 <div className="flex-start-row">
                     <div className="search">
@@ -76,15 +87,17 @@ const Header = () => {
             </header>
 
             <div className="relative">
-                <div className="menu-mobile">
+                <div
+                    className={active ? 'menu-mobile showmenu' : 'menu-mobile'}
+                >
                     <ul className="nav-mobile">
                         <li>
-                            <Link href="/about" className="nav-mobile__link">
+                            <Link to="/about" className="nav-mobile__link">
                                 Sobre
                             </Link>
                         </li>
                         <li>
-                            <Link href="/contact" className="nav-mobile__link">
+                            <Link to="/contact" className="nav-mobile__link">
                                 Contato
                             </Link>
                         </li>

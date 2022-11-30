@@ -17,8 +17,11 @@ const About = () => {
                             Blog<span>.</span>
                         </h1>
                         <p className="mt-1">
-                            O Blog é um projeto desenvolvido em React.js. Clique
-                            abaixo para saber de mais informações.
+                            O Blog é um projeto desenvolvido em React.js. A
+                            aplicação foi desenvolvida para demonstrar na prática uma SPA,
+                            consultas em API, React Hooks e demais conceitos
+                            de React.js. Clique abaixo para saber de mais
+                            informações.
                         </p>
                         <a
                             href="https://github.com/jeanwilker/blog-react"
