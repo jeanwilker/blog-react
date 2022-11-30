@@ -20,16 +20,17 @@ O Blog é um projeto desenvolvido em React.js. A aplicação foi desenvolvida pa
 
 Esse projeto foi desenvolvido com as seguintes tecnologias:
 
-![HTML](https://img.shields.io/badge/-HTML5-0D1117?style=for-the-badge&logo=html5&logoColor=E34F26&labelColor=0D1117)&nbsp;
-![CSS](https://img.shields.io/badge/-CSS-0D1117?style=for-the-badge&logo=CSS3&logoColor=1572B6&labelColor=0D1117)&nbsp;
-![JavaScript](https://img.shields.io/badge/-JavaScript-0D1117?style=for-the-badge&logo=javascript&labelColor=0D1117&textColor=0D1117)&nbsp; <br>
 ![React.js](https://img.shields.io/badge/-React.js-0D1117?style=for-the-badge&logo=react&labelColor=0D1117)
 
+![JavaScript](https://img.shields.io/badge/-JavaScript-0D1117?style=for-the-badge&logo=javascript&labelColor=0D1117&textColor=0D1117)&nbsp;
+
+![CSS](https://img.shields.io/badge/-CSS-0D1117?style=for-the-badge&logo=CSS3&logoColor=1572B6&labelColor=0D1117)&nbsp; 
+![SASS](https://img.shields.io/badge/-Sass-0D1117?style=for-the-badge&logo=sass&logoColor=CC6699)&nbsp; <br>
 
 ## 🔖 Layout
 
 Você pode visualizar o layout do projeto através [DESSE LINK](https://www.figma.com/file/fIU2cjAqWVDvtXO4hhbzFf/Blog?node-id=1%3A4&t=onSYFFMwd9ED9ROj-0). É necessário ter conta no [Figma](https://figma.com) para acessá-lo.
 
-Interaja com o componente: [LINK](https://nubank-concept.netlify.app/).
+Interaja com o componente: [LINK]().
 
 ---
