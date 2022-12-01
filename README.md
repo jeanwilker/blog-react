@@ -33,6 +33,6 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
 
 Você pode visualizar o layout do projeto através [DESSE LINK](https://www.figma.com/file/fIU2cjAqWVDvtXO4hhbzFf/Blog?node-id=1%3A4&t=onSYFFMwd9ED9ROj-0). É necessário ter conta no [Figma](https://figma.com) para acessá-lo.
 
-Interaja com o componente: [LINK](https://blog-preject.netlify.app/).
+Interaja com o componente: [LINK](https://blog-project-react.netlify.app/).
 
 ---
