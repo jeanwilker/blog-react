@@ -9,7 +9,7 @@
 <br>
 
 <p align="center">
-  <img alt="Imagem de apresentação Blog." src=".github/blog-presentation.png" width="100%">
+  <img alt="Imagem de apresentação Blog." src=".github/blog-react.png" width="100%">
 </p>
 
 ## 💻 Projeto
